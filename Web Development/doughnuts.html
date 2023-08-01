@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    
+    <head>
+    
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href=".\index\logo\donut.png">
+        <title>Donuts</title>
+    
+        
+        <style>
+            *{
+                font-family: 'Poppins', sans-serif;
+                margin:0; padding:0;
+                box-sizing: border-box;
+                outline: none; border:none;
+                text-decoration: none;
+                text-transform: capitalize;
+                transition: .2s linear;
+            }
+
+            .price{
+                font-size: 30px;
+            }
+
+            .container{
+                background:linear-gradient(45deg, #FFC26F, #884A39);
+                padding:15px 9%;
+                padding-bottom: 100px;
+            }
+
+            .container .heading{
+                text-align: center;
+                padding-bottom: 15px;
+                color:#fff;
+                text-shadow: 0 5px 10px rgba(0,0,0,.2);
+                font-size: 50px;
+            }
+
+            .container .box-container{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+                gap:15px;
+            }
+
+            .container .box-container .box{
+                box-shadow: 0 5px 10px rgba(0,0,0,.2);
+                border-radius: 5px;
+                background: #fff;
+                text-align: center;
+                padding:30px 20px;
+            }
+
+            .container .box-container .box img{
+                height: 80px;
+            }
+
+            .container .box-container .box h3{
+                color:#444;
+                font-size: 22px;
+                padding:10px 0;
+            }
+
+            .container .box-container .box strong{
+                color: #E966A0;
+                font-size: 16px;
+                line-height: 1.8;
+            }
+
+            .container .box-container .box .btn{
+                margin-top: 10px;
+                display: inline-block;
+                background:#333;
+                color:#fff;
+                font-size: 17px;
+                border-radius: 5px;
+                padding: 8px 25px;
+            }
+
+            .container .box-container .box .btn:hover{
+                letter-spacing: 1px;
+            }
+
+            .container .box-container .box:hover{
+                box-shadow: 0 10px 15px rgba(0,0,0,.3);
+                transform: scale(1.03);
+            }
+
+            @media (max-width:768px){
+                .container{
+                    padding:20px;
+                }
+            }
+                    </style>
+                
+
+</head>
+
+    <body>
+        <div class="container">
+
+            <h1 class="heading">Donuts</h1>
+        
+            <div class="box-container">
+        
+                <div class="box">
+                    <img src=".\our products images\Doughnuts\Chocolate.jpg" alt="Chocolate">
+                    <h3>Chocolate</h3>
+                    <p>medium size donut with chocolate syrup and sprinkles on it (3 pieces)</p>
+                    <strong><p align="center" class="price">120</p></strong>
+                    <a href=".\payment.html" class="btn">Buy</a>
+                </div>
+                 
+                <div class="box">
+                    <img src=".\our products images\Doughnuts\Dark Chocolate.jpeg" alt="dark chocolate">
+                    <h3>Dark Chocolate</h3>
+                    <p>medium size donut with multiple sprinkles on it (3 pieces)</p>
+                    <strong><p align="center" class="price">150</p></strong>
+                    <a href=".\payment.html" class="btn">Buy</a>
+                </div>
+
+                <div class="box">
+                    <img src=".\our products images\Doughnuts\strawberry.jpeg" alt="strawberry">
+                    <h3>Strawberry</h3>
+                    <p>strawberry Syrup with the sprinkle on it (3 pieces)</p>
+                    <strong><p align="center" class="price">150</p></strong>
+                    <a href=".\payment.html" class="btn">Buy</a>
+                </div>
+
+                <div class="box">
+                    <img src=".\our products images\Doughnuts\white chocolate.jpeg" alt="white">
+                    <h3>White Chocolate</h3>
+                    <p>white chocolate on the donut with the sprinkles (3 pieces)</p>
+                    <strong><p align="center" class="price">120</p></strong>
+                    <a href=".\payment.html" class="btn">Buy</a>
+                </div>
+
+                <div class="box">
+                    <img src=".\our products images\Doughnuts\purple-fruit-flavor-donuts-plate-white-background-close-up-168749532.jpg" alt="purple">
+                    <h3>Purple Glazed</h3>
+                    <p>white purple glazed on the donut with the sprinkles (3 pieces)</p>
+                    <strong><p align="center" class="price">150</p></strong>
+                    <a href=".\payment.html" class="btn">Buy</a>
+                </div>
+
+            </div>
+        </div>
+        
+    </body>
+
+    </html>
